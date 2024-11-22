@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".fullscreen");let t=0;document.addEventListener("wheel",(n=>{const o=n.deltaY>0?1:-1;t=Math.min(Math.max(t+o,0),e.length-1),e[t].scrollIntoView({behavior:"smooth",block:"start"})}))}));

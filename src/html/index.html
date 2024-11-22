@@ -9,32 +9,53 @@
 <body class="body">
   @@include('blocks/header.html')
   <main>
-    <section class="promo">
+    <section class="promo fullscreen">
       <div class="container">
-        <h1 class="promo__title">
-          Flair France
-        </h1>
-        <button class="promo__btn">Start traveling</button>
-        <div class="promo__steps">
-          <div class="promo__steps-item">
-            <div class="promo__steps-num">01</div>
-            <h2 class="promo__steps-title">Title here</h2>
-            <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+        <div class="promo__wrapper">
+          <h1 class="promo__title">
+            Flair France
+          </h1>
+          <button class="promo__btn">Start traveling</button>
+          <div class="promo__steps">
+            <div class="promo__steps-item">
+              <div class="promo__steps-num">01</div>
+              <h2 class="promo__steps-title">Title here</h2>
+              <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </div>
+            <div class="promo__steps-item">
+              <div class="promo__steps-num">02</div>
+              <h2 class="promo__steps-title">Title here</h2>
+              <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </div>
+            <div class="promo__steps-item">
+              <div class="promo__steps-num">03</div>
+              <h2 class="promo__steps-title">Title here</h2>
+              <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </div>
           </div>
-          <div class="promo__steps-item">
-            <div class="promo__steps-num">02</div>
-            <h2 class="promo__steps-title">Title here</h2>
-            <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-          </div>
-          <div class="promo__steps-item">
-            <div class="promo__steps-num">03</div>
-            <h2 class="promo__steps-title">Title here</h2>
-            <p class="promo__steps-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </div>
+      </div>
+    </section>
+    <section class="walkways fullscreen">
+      <div class="container">
+        <div class="walkways__wrapper">
+          <img src="./img/walksways-img.png" alt="walksways" class="walkways__img">
+          <div class="walkways__text-content">
+            <h2 class="walkways__title">
+              The walkways of 
+              France spellbind
+            </h2>
+            <p class="walkways__text">
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. 
+              Fusce commodo magna et libero mollis rhoncus. 
+            </p>
+            <button class="btn walkways__btn">Learn More</button>
           </div>
         </div>
       </div>
     </section>
   </main>
   @@include('blocks/footer.html')
+  <script src="./js/index.bundle.js"></script>
 </body>
 </html>

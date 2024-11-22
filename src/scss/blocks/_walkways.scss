@@ -1,0 +1,26 @@
+.walkways {
+  padding: 200px 0 60px;
+  background: url('../img/walksways-bg.png') center center / cover no-repeat;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+  &__title {
+    max-width: 400px;
+    color: $static-white;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 900;
+  }
+  &__text {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 400px;
+    color: $static-white;
+  }
+  &__btn {
+    margin-top: 24px;
+  }
+}
