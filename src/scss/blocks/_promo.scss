@@ -1,0 +1,53 @@
+.promo {
+  background: url('../img/promo-bg.jpg') center center / cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+  &__title {
+    font-family: $title-font;
+    font-weight: 900;
+    color: $static-white;
+    max-width: 620px;
+    padding-top: 280px;
+    font-size: 120px;
+    line-height: 130px;
+  }
+  &__btn {
+    margin-top: 21px;
+    padding: 24px 64px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: $accent-color;
+    color: $static-white;
+    cursor: pointer;
+  }
+  &__steps {
+    position: absolute;
+    padding: 40px 0 40px 72px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    display: flex;
+    gap: 180px;
+  }
+  &__steps-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__steps-num {
+    color: $accent-color;
+  }
+  &__steps-title {
+    font-size: 24px;
+    line-height: 36px;
+    color: $static-white;
+  }
+  &__steps-text {
+    max-width: 210px;
+    color: $gray;
+  }
+}
