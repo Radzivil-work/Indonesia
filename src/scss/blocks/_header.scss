@@ -1,0 +1,18 @@
+.header {
+  padding: 36px 0;
+  color: $static-white;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  &__nav-list {
+    display: flex;
+    gap: 64px;
+  }
+  &__nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
