@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.html,
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  font-family: $font-family;
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer {
+  margin-top: auto;
+}
